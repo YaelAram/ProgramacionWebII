@@ -1,0 +1,22 @@
+p {
+  color: blue;
+  font-size: larger;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.fondo {
+  background-color: coral;
+}
+
+.fuente {
+  color: darkslategrey;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
