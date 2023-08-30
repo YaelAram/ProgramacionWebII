@@ -1,0 +1,17 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: burlywood;
+}
+
+.titulo {
+  color: red;
+}
+
+.parrafo {
+  color: chocolate;
+}
+
+.img {
+  width: 250px;
+  height: 100px;
+}

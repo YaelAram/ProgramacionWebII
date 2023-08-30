@@ -1,0 +1,30 @@
+body {
+  padding: 1rem 2rem;
+}
+
+h1,
+p {
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 8px;
+}
+
+p {
+  padding: 32px 0 16px 24px;
+}
+
+.img-wh {
+  width: 250px;
+  height: 100px;
+}
+
+.img-des {
+  width: 100px;
+  height: 200px;
+}
+
+.img-w {
+  width: 300px;
+}

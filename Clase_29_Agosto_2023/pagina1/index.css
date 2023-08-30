@@ -1,0 +1,16 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: aqua;
+}
+
+.titulo {
+  color: blue;
+}
+
+.parrafo {
+  color: blueviolet;
+}
+
+.img {
+  width: 1400px;
+}
