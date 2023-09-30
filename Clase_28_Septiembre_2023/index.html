@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 28 de Septiembre de 2023</title>
+    <script src="./app.js" defer></script>
+    <script src="./app2.js" defer></script>
+    <script src="./app3.js" defer></script>
+    <script src="./app4.js" defer></script>
+    <script src="./app5.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Clase 28 de Septiembre de 2023</h1>
+      <section>
+        <h2>App.js</h2>
+        <form id="app-form">
+          <label for="primer-numero">Primer Numero:</label>
+          <input type="number" name="primero" id="primer-numero" />
+          <label for="segundo-numero">Segundo Numero:</label>
+          <input type="number" name="segundo" id="segundo-numero" />
+          <button type="submit">Calcular</button>
+        </form>
+        <p>Suma: <span id="app-suma">0</span></p>
+        <p>Resta: <span id="app-resta">0</span></p>
+        <p>Multiplicacion: <span id="app-mult">0</span></p>
+        <p>Division: <span id="app-div">0</span></p>
+        <p>Modulo: <span id="app-mod">0</span></p>
+      </section>
+      <section>
+        <h2>App2.js</h2>
+        <p>
+          Utiliza el formulario de la primer seccion para controlar esta seccion
+        </p>
+        <p id="app2-gt">Mayor que</p>
+        <p id="app2-gte">Mayor igual que</p>
+        <p id="app2-lt">Menor que</p>
+        <p id="app2-lte">Menor igual que</p>
+        <p id="app2-e">Igual</p>
+        <p id="app2-ne">Diferente</p>
+      </section>
+      <section>
+        <h2>App3.js</h2>
+        <article>
+          <h3>AND</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>Resultado</th>
+              </tr>
+            </thead>
+            <tbody id="and"></tbody>
+          </table>
+        </article>
+        <article>
+          <h3>OR</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>Resultado</th>
+              </tr>
+            </thead>
+            <tbody id="or"></tbody>
+          </table>
+        </article>
+        <article>
+          <h3>NOT</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>A</th>
+                <th>Resultado</th>
+              </tr>
+            </thead>
+            <tbody id="not"></tbody>
+          </table>
+        </article>
+      </section>
+      <section>
+        <h2>App4.js</h2>
+        <form id="app4-form">
+          <label for="numero">Numero:</label>
+          <input type="number" name="numero" id="numero">
+          <button type="submit">Validar</button>
+        </form>
+        <>¿El numero esta es 1 <= numero <= 10? <span id="esValido"></span> </p>
+      </section>
+      <section>
+        <h2>App5.js</h2>
+        <form id="app5-form">
+          <label for="primer-numero">Primer Numero:</label>
+          <input type="number" name="primero" id="primer-numero" />
+          <label for="segundo-numero">Segundo Numero:</label>
+          <input type="number" name="segundo" id="segundo-numero" />
+          <label for="tercer-numero">Tercer Numero:</label>
+          <input type="number" name="tercer" id="tercer-numero" />
+          <button type="submit">Calcular</button>
+        </form>
+        <ul id="resultados"></ul>
+      </section>
+    </main>
+  </body>
+</html>
